@@ -37,6 +37,7 @@
     "node-sass": "^4.9.3",
     "optimize-css-assets-webpack-plugin": "^5.0.0",
     "postcss": "^7.0.2",
+    "postcss-combine-duplicated-selectors": "^6.0.2",
     "postcss-loader": "^3.0.0",
     "react": "*",
     "react-dom": "*",

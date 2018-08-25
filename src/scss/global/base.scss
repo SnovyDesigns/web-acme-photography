@@ -1,5 +1,12 @@
-html,
+// Set base font-size to 10px
+html {
+  font-size: 62.5%;
+}
+
+// --- FONT ---
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
 body {
-  background-color: #1abc9c;
-  margin: 10px;
+  font-family: 'Roboto Condensed', sans-serif;
+  font-size: 1.6rem;
 }

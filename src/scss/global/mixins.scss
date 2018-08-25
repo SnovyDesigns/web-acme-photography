@@ -13,8 +13,8 @@ $unit: rem !default;
 }
 
 // Transition
-@mixin trans($props: all, $speed: 0.4s, $easing: ease-in) {
-  transition: $props $speed $easing;
+@mixin trans($speed: 0.4s, $easing: ease-in, $props: all) {
+  transition: $props #{$speed}s $easing;
 }
 
 // Margin - bottom | top | left | right
